@@ -2527,7 +2527,7 @@ ul.breadcrumb li:last-child {
   transition: all 0.2s ease-in-out;
 }
 .links-of-author a::before {
-  background: #046060;
+  background: #ff3eba;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2546,4 +2546,11 @@ ul.breadcrumb li:last-child {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
 }
